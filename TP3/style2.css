@@ -1,0 +1,157 @@
+/* Réinitialisation du style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps */
+body {
+    font-family: 'Didot', 'Playfair Display', serif;
+    line-height: 1.8; /* Augmentation de l'espacement entre les lignes pour plus de lisibilité */
+    padding: 20px;
+    background-color: #f4f4f4;
+    overflow-y: scroll; /* Permet de toujours défiler la page */
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0; /* Augmentation du padding pour un espacement plus confortable */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em; /* Taille du titre principal */
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-top: 15px; /* Espacement autour du menu de navigation */
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px; /* Espacement amélioré entre les éléments du menu */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em; /* Taille de police légèrement augmentée pour le menu */
+}
+
+/* Main layout */
+main {
+    display: flex;
+    flex-direction: column; /* Change pour une disposition verticale pour un meilleur défilement */
+    margin-top: 30px;
+}
+
+/* Section Projets */
+#projets {
+    width: 100%;
+    margin-bottom: 50px; /* Plus d'espace en bas */
+    padding: 20px; /* Ajout de padding interne */
+}
+
+#projets h2 {
+    font-size: 2em; /* Augmentation de la taille du titre des sections */
+    margin-bottom: 20px;
+}
+
+.projet {
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombrage amélioré */
+}
+
+.projet h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.projet p {
+    font-size: 1.2em; /* Taille de texte plus grande */
+    margin-bottom: 15px;
+}
+
+.projet img {
+    display: block;
+    margin: 20px 0;
+    max-width: 80%; /* Ajuste la largeur maximale à 80% */
+    height: auto; /* Conserve le ratio de l'image */
+    max-height: 300px; /* Ajustement de la hauteur maximale */
+}
+
+/* Section À propos de moi */
+.about {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 50px; /* Espace supplémentaire sous la section */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.3em;
+    margin-bottom: 20px; /* Espace ajouté entre les paragraphes */
+}
+
+.about iframe {
+    margin-top: 25px; /* Espace au-dessus de l'iframe */
+    width: 100%; /* Ajustement de la largeur */
+    height: 450px; /* Taille définie pour l'iframe */
+}
+
+/* Section Contact */
+.contact {
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Plus d'espacement entre les sections */
+    margin-bottom: 50px;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact p, .contact a {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Styles pour l'emplacement de l'IUT */
+.iut-emplacement {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 50px; /* Espace supplémentaire sous la section */
+    background-color: #fff; /* Arrière-plan blanc */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Ombrage similaire aux autres sections */
+}
+

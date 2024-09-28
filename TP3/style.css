@@ -1,0 +1,56 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Couleurs de fond pour chaque section */
+header {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: #333; /* Gris foncé */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Afficher les éléments en ligne */
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    background-color: #f4f4f4; /* Gris clair */
+    padding: 20px;
+    flex: 3; /* Prendre plus d'espace dans le conteneur flex */
+}
+
+aside {
+    background-color: #e7e7e7; /* Gris très clair */
+    padding: 20px;
+    flex: 1; /* Prendre moins d'espace dans le conteneur flex */
+}
+
+footer {
+    background-color: #333; /* Gris foncé */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

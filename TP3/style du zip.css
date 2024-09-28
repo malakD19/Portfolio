@@ -1,0 +1,33 @@
+/** Ôter toutes les espacements **/
+
+body, h1, h2, h3, h4, ul, li, aside, section, nav, p{
+  margin: 0;
+  padding: 0;
+}
+
+/** De la couleur pour "mieux voir" **/
+
+h1{
+  background-color: #FFEBCD;
+}
+nav {
+  background-color:   #7FFF00;
+}
+ul {
+  background-color: #D2691E;
+}
+li {
+  background-color: #00FFFF;
+}
+h3{
+  background-color:#9932CC;
+}
+.project{
+  background-color: #FF8C00;
+}
+#projects{
+  background-color: #556B2F;
+}
+aside{
+  background-color: #FF1493;
+}

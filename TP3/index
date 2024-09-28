@@ -1,0 +1,18 @@
+<section id="projets">
+    <h2>Mes Projets</h2>
+    <article>
+        <h3>Gestionnaire de tâches</h3>
+        <p>Date : Mars 2024</p>
+        <p>Description : Une application web pour gérer les tâches quotidiennes.</p>
+        <img src="images/gestionnaire-taches.jpg" alt="Visuel du projet Gestionnaire de tâches">
+        <a href="https://lien_vers_video.com">Voir la démo</a>
+    </article>
+    <article>
+        <h3>Site de portfolio</h3>
+        <p>Date : Avril 2024</p>
+        <p>Description : Mon site personnel pour présenter mes projets et compétences.</p>
+        <img src="images/portfolio.jpg" alt="Visuel de mon site de portfolio">
+        <a href="https://github.com/mon-repo">Voir sur GitHub</a>
+    </article>
+    <!-- Ajoute d'autres projets ici -->
+</section>
